@@ -12,7 +12,7 @@ function App() {
     ]);
 
     const addTodo = (todo) =>{
-        setTodos(...[todos, todo]);
+        setTodos([...todos, {text:todo}] );
     };
 
     return (

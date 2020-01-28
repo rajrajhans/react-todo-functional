@@ -32,10 +32,15 @@
   max-width: 400px;
 }
 
+.todo-form{
+  max-width: 400px;
+  margin: 15px auto 10px auto;
+}
 /*TODOFORM STYLES END*/
 
 /*TODOLIST STYLE START*/
 .todo-list {
+  margin: 0 auto 0 auto;
   background: #e8e8e8;
   border-radius: 4px;
   padding: 5px;
@@ -52,6 +57,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  transition: 0.2s ease;
+}
+
+.todo:hover{
+  background: #dbdbdb;
 }
 /*TODOLIST STYLE END*/
 

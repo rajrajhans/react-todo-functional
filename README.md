@@ -4,6 +4,9 @@ A simple ToDo application built with React using only functional components and 
 
 * Functional components are good for presentational components (components that are stateless are just UI elements)
 * Functional components receive props as arguments and return JSX that is to be rendered. (We destructure the props in arguments using ES6 object destrucuturing for convenience)
+* They are also easier to work with (considering you don't have to worry about `this`) and easier to understand.
+
+Earlier, functional components were strictly stateless, but now, we can use React Hooks to implement the state functionality in functional components.
 
 ### Available Scripts
 

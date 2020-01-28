@@ -1,6 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 *{
   margin: 0;
   padding: 0;
   border: 0;
+  font-family: 'Lato', sans-serif;
 }
 
+.parent-container{
+  background: #0f0c29;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100vh;
+}
+
+.top-container{
+  padding-top: 15px;
+  max-width: 600px;
+  background: #f0eded;
+  height: 100vh;
+}
+
+/*TODOFORM STYLES START*/
+
+.app-title{
+  font-family: 'Lato', sans-serif;
+  font-size: 36px;
+  border: 1px solid #0e0e0e;
+  margin: 0 auto 10px auto;
+  background: #ffffff;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 2px rgba(0,0,0,0.23);
+  max-width: 400px;
+}

@@ -4,7 +4,7 @@ const TodoForm = ({addTodo}) =>{
     const [value, setvalue] = useState('');
 
     const handleChange = (e) => {   //to handle change in form input (when user is typing)
-        setvalue(e.target);         //e.target gives the value of current value the user is typing
+        setvalue(e.target.value);         //e.target gives the value of current value the user is typing
     };
 
     const handleSubmit = (e) => {

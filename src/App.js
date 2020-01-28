@@ -11,18 +11,22 @@ function App() {
         { text: "Die" }
     ]);
 
-  return (
+    const addTodo = (todo) =>{
+        setTodos(...[todos, todo]);
+    };
+
+    return (
       <div className="parent-container">
           <div className="container top-container">
               <div className="app">
                   <div className="todoform">
-                      <TodoForm />
+                      <TodoForm addTodo={addTodo} />
                       <Todos todos={todos} />
                   </div>
               </div>
           </div>
       </div>
-  );
+    );
 }
 
 export default App;

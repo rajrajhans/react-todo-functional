@@ -63,6 +63,10 @@
 .todo:hover{
   background: #dbdbdb;
 }
+
+.todo-text{
+  margin-left:0;
+}
 /*TODOLIST STYLE END*/
 
 

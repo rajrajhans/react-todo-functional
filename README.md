@@ -1,5 +1,7 @@
 A simple ToDo application built with React using only functional components and no class components. This exercise was intended to explore and learn more about Hooks in React.
 
+[This project has been deployed and can be seen at this link.](https://heuristic-sammet-ab37a3.netlify.com/)
+
 ### Some notes about functional components in React
 
 * Functional components are good for presentational components (components that are stateless are just UI elements)
